@@ -190,8 +190,8 @@ Coverage: 80%+
 
 ## Autor
 
-Estudiante - Módulo 4: Fundamentos de Programación en Java
+Alejandro Casetti - Módulo 4: Fundamentos de Programación en Java
 
 ## Licencia
 
-Proyecto educativo - Libre para uso académico
+Proyecto educativo 
