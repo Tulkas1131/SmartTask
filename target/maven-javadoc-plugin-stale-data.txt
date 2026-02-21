@@ -1,0 +1,67 @@
+-J-Duser.language=
+-J-Duser.country=
+@options
+@argfile
+-encoding
+'UTF-8'
+-protected
+-source
+'21'
+-sourcepath
+'C:/Users/Tulkas/Documents/CursoJavaFullStack/ProyectoSmartTask/SmartTask/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2026. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/Tulkas/Documents/CursoJavaFullStack/ProyectoSmartTask/SmartTask/target/reports/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'SmartTask 1.0 API'
+-use
+-version
+-windowtitle
+'SmartTask 1.0 API'
+'C:/Users/Tulkas/Documents/CursoJavaFullStack/ProyectoSmartTask/SmartTask/src/main/java/Accionable.java'
+'C:/Users/Tulkas/Documents/CursoJavaFullStack/ProyectoSmartTask/SmartTask/src/main/java/GestorTareas.java'
+'C:/Users/Tulkas/Documents/CursoJavaFullStack/ProyectoSmartTask/SmartTask/src/main/java/SmartTask.java'
+'C:/Users/Tulkas/Documents/CursoJavaFullStack/ProyectoSmartTask/SmartTask/src/main/java/Tarea.java'
+'C:/Users/Tulkas/Documents/CursoJavaFullStack/ProyectoSmartTask/SmartTask/src/main/java/TareaNormal.java'
+'C:/Users/Tulkas/Documents/CursoJavaFullStack/ProyectoSmartTask/SmartTask/src/main/java/TareaUrgente.java'
+C:\Users\Tulkas\Documents\CursoJavaFullStack\ProyectoSmartTask\SmartTask\src\main\java\Accionable.java = 1771453377338
+C:\Users\Tulkas\Documents\CursoJavaFullStack\ProyectoSmartTask\SmartTask\src\main\java\GestorTareas.java = 1771453377338
+C:\Users\Tulkas\Documents\CursoJavaFullStack\ProyectoSmartTask\SmartTask\src\main\java\SmartTask.java = 1771453377338
+C:\Users\Tulkas\Documents\CursoJavaFullStack\ProyectoSmartTask\SmartTask\src\main\java\Tarea.java = 1771453377338
+C:\Users\Tulkas\Documents\CursoJavaFullStack\ProyectoSmartTask\SmartTask\src\main\java\TareaNormal.java = 1770340828429
+C:\Users\Tulkas\Documents\CursoJavaFullStack\ProyectoSmartTask\SmartTask\src\main\java\TareaUrgente.java = 1770340866712
+C:\Users\Tulkas\Documents\CursoJavaFullStack\ProyectoSmartTask\SmartTask\src\main\java = 1770341044069
+C:\Users\Tulkas\Documents\CursoJavaFullStack\ProyectoSmartTask\SmartTask\target\reports\apidocs\Accionable.html = 1771709620746
+C:\Users\Tulkas\Documents\CursoJavaFullStack\ProyectoSmartTask\SmartTask\target\reports\apidocs\allclasses-index.html = 1771709620943
+C:\Users\Tulkas\Documents\CursoJavaFullStack\ProyectoSmartTask\SmartTask\target\reports\apidocs\allpackages-index.html = 1771709620948
+C:\Users\Tulkas\Documents\CursoJavaFullStack\ProyectoSmartTask\SmartTask\target\reports\apidocs\copy.svg = 1771709620996
+C:\Users\Tulkas\Documents\CursoJavaFullStack\ProyectoSmartTask\SmartTask\target\reports\apidocs\element-list = 1771709620853
+C:\Users\Tulkas\Documents\CursoJavaFullStack\ProyectoSmartTask\SmartTask\target\reports\apidocs\GestorTareas.html = 1771709620786
+C:\Users\Tulkas\Documents\CursoJavaFullStack\ProyectoSmartTask\SmartTask\target\reports\apidocs\help-doc.html = 1771709620988
+C:\Users\Tulkas\Documents\CursoJavaFullStack\ProyectoSmartTask\SmartTask\target\reports\apidocs\index-all.html = 1771709620974
+C:\Users\Tulkas\Documents\CursoJavaFullStack\ProyectoSmartTask\SmartTask\target\reports\apidocs\index.html = 1771709620981
+C:\Users\Tulkas\Documents\CursoJavaFullStack\ProyectoSmartTask\SmartTask\target\reports\apidocs\link.svg = 1771709621000
+C:\Users\Tulkas\Documents\CursoJavaFullStack\ProyectoSmartTask\SmartTask\target\reports\apidocs\member-search-index.js = 1771709620957
+C:\Users\Tulkas\Documents\CursoJavaFullStack\ProyectoSmartTask\SmartTask\target\reports\apidocs\module-search-index.js = 1771709620950
+C:\Users\Tulkas\Documents\CursoJavaFullStack\ProyectoSmartTask\SmartTask\target\reports\apidocs\overview-tree.html = 1771709620926
+C:\Users\Tulkas\Documents\CursoJavaFullStack\ProyectoSmartTask\SmartTask\target\reports\apidocs\package-search-index.js = 1771709620953
+C:\Users\Tulkas\Documents\CursoJavaFullStack\ProyectoSmartTask\SmartTask\target\reports\apidocs\package-summary.html = 1771709620871
+C:\Users\Tulkas\Documents\CursoJavaFullStack\ProyectoSmartTask\SmartTask\target\reports\apidocs\package-tree.html = 1771709620879
+C:\Users\Tulkas\Documents\CursoJavaFullStack\ProyectoSmartTask\SmartTask\target\reports\apidocs\package-use.html = 1771709620921
+C:\Users\Tulkas\Documents\CursoJavaFullStack\ProyectoSmartTask\SmartTask\target\reports\apidocs\script.js = 1771709620993
+C:\Users\Tulkas\Documents\CursoJavaFullStack\ProyectoSmartTask\SmartTask\target\reports\apidocs\search-page.js = 1771709621008
+C:\Users\Tulkas\Documents\CursoJavaFullStack\ProyectoSmartTask\SmartTask\target\reports\apidocs\search.html = 1771709620979
+C:\Users\Tulkas\Documents\CursoJavaFullStack\ProyectoSmartTask\SmartTask\target\reports\apidocs\search.js = 1771709621005
+C:\Users\Tulkas\Documents\CursoJavaFullStack\ProyectoSmartTask\SmartTask\target\reports\apidocs\SmartTask.html = 1771709620800
+C:\Users\Tulkas\Documents\CursoJavaFullStack\ProyectoSmartTask\SmartTask\target\reports\apidocs\stylesheet.css = 1771709620992
+C:\Users\Tulkas\Documents\CursoJavaFullStack\ProyectoSmartTask\SmartTask\target\reports\apidocs\tag-search-index.js = 1771709620960
+C:\Users\Tulkas\Documents\CursoJavaFullStack\ProyectoSmartTask\SmartTask\target\reports\apidocs\Tarea.html = 1771709620826
+C:\Users\Tulkas\Documents\CursoJavaFullStack\ProyectoSmartTask\SmartTask\target\reports\apidocs\TareaNormal.html = 1771709620838
+C:\Users\Tulkas\Documents\CursoJavaFullStack\ProyectoSmartTask\SmartTask\target\reports\apidocs\TareaUrgente.html = 1771709620851
+C:\Users\Tulkas\Documents\CursoJavaFullStack\ProyectoSmartTask\SmartTask\target\reports\apidocs\type-search-index.js = 1771709620956

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="GestorTareasTest" time="0.123" tests="15" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Tulkas\Documents\CursoJavaFullStack\ProyectoSmartTask\SmartTask\target\test-classes;C:\Users\Tulkas\Documents\CursoJavaFullStack\ProyectoSmartTask\SmartTask\target\classes;C:\Users\Tulkas\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.3\junit-jupiter-api-5.9.3.jar;C:\Users\Tulkas\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Tulkas\.m2\repository\org\junit\platform\junit-platform-commons\1.9.3\junit-platform-commons-1.9.3.jar;C:\Users\Tulkas\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Tulkas\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.3\junit-jupiter-engine-5.9.3.jar;C:\Users\Tulkas\.m2\repository\org\junit\platform\junit-platform-engine\1.9.3\junit-platform-engine-1.9.3.jar;C:\Users\Tulkas\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.3\junit-jupiter-params-5.9.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Santiago"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="ES"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\Tulkas\AppData\Local\Temp\surefire6093893091916987434\surefirebooter-20260221130647634_3.jar C:\Users\Tulkas\AppData\Local\Temp\surefire6093893091916987434 2026-02-21T13-06-47_525-jvmRun1 surefire-20260221130647634_1tmp surefire_0-20260221130647634_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Tulkas\Documents\CursoJavaFullStack\ProyectoSmartTask\SmartTask\target\test-classes;C:\Users\Tulkas\Documents\CursoJavaFullStack\ProyectoSmartTask\SmartTask\target\classes;C:\Users\Tulkas\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.3\junit-jupiter-api-5.9.3.jar;C:\Users\Tulkas\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Tulkas\.m2\repository\org\junit\platform\junit-platform-commons\1.9.3\junit-platform-commons-1.9.3.jar;C:\Users\Tulkas\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Tulkas\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.3\junit-jupiter-engine-5.9.3.jar;C:\Users\Tulkas\.m2\repository\org\junit\platform\junit-platform-engine\1.9.3\junit-platform-engine-1.9.3.jar;C:\Users\Tulkas\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.3\junit-jupiter-params-5.9.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Tulkas"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Tulkas\Documents\CursoJavaFullStack\ProyectoSmartTask\SmartTask"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Tulkas\AppData\Local\Temp\surefire6093893091916987434\surefirebooter-20260221130647634_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.6+8-LTS-188"/>
+    <property name="user.name" value="Tulkas"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Tulkas\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Tulkas\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.6"/>
+    <property name="user.dir" value="C:\Users\Tulkas\Documents\CursoJavaFullStack\ProyectoSmartTask\SmartTask"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\Tulkas\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\Tulkas\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\app\Tulkas\product\21c\dbhomeXE\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;c:\Users\Tulkas\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files (x86)\Maono\Maono Link 3;C:\Program Files\Apache\maven\apache-maven-3.9.11\bin;C:\Program Files\Java\jdk-21\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\wamp64\bin\php\php8.3.14;C:\Program Files\nodejs\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\cloudflared\;C:\Program Files\Docker\Docker\resources\bin;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\Tulkas\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\Tulkas\AppData\Local\Programs\Python\Python312\;C:\Users\Tulkas\AppData\Local\Programs\Python\Launcher\;C:\Users\Tulkas\AppData\Local\Microsoft\WindowsApps;C:\Users\Tulkas\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Tulkas\AppData\Local\GitHubDesktop\bin;C:\Users\Tulkas\AppData\Local\Programs\cursor\resources\app\bin;C:\Users\Tulkas\AppData\Local\Programs\Windsurf\bin;C:\Users\Tulkas\.lmstudio\bin;C:\Program Files\Apache\maven\apache-maven\bin;C:\Users\Tulkas\.dotnet\tools;C:\Users\Tulkas\AppData\Roaming\Composer\vendor\bin;C:\wamp64\bin\php\php8.3.14\;C:\Users\Tulkas\AppData\Roaming\npm;C:\Users\Tulkas\AppData\Local\Programs\Antigravity\bin;C:\Users\Tulkas\AppData\Local\Microsoft\WindowsApps;C:\Users\Tulkas\AppData\Local\PowerToys\DSCModules\;c:\Users\Tulkas\.vscode\extensions\vscjava.vscode-java-debug-0.58.5\bundled\scripts\noConfigScripts;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.6+8-LTS-188"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="testMostrarDetallesTareaCompletada" classname="GestorTareasTest" time="0.051">
+    <system-out><![CDATA[=== TAREA NORMAL ===
+ID: 1
+Nombre: Revisar
+Prioridad: Baja
+Estado: Completada
+Tipo: Normal
+]]></system-out>
+  </testcase>
+  <testcase name="testToStringTareaUrgenteCompletada" classname="GestorTareasTest" time="0.009"/>
+  <testcase name="testAgregarMultiplesTareas" classname="GestorTareasTest" time="0.005">
+    <system-out><![CDATA[Tarea Normal agregada.
+Tarea Urgente agregada.
+Tarea Normal agregada.
+Tarea Urgente agregada.
+Tarea Normal agregada.
+]]></system-out>
+  </testcase>
+  <testcase name="testToStringTareaNormal" classname="GestorTareasTest" time="0.001"/>
+  <testcase name="testEliminarTareaInexistente" classname="GestorTareasTest" time="0.001">
+    <system-out><![CDATA[Tarea no encontrada.
+]]></system-out>
+  </testcase>
+  <testcase name="testListarTareasConContenido" classname="GestorTareasTest" time="0.001">
+    <system-out><![CDATA[Tarea Normal agregada.
+Tarea Urgente agregada.
+Tarea Normal agregada.
+1. Tarea 1 | Prioridad: Alta [Pendiente]
+⚠️ 2. Tarea 2 | Prioridad: Media [Pendiente] [URGENTE]
+3. Tarea 3 | Prioridad: Baja [Pendiente]
+]]></system-out>
+  </testcase>
+  <testcase name="testMarcarComoCompletadaTareaInexistente" classname="GestorTareasTest" time="0.001">
+    <system-out><![CDATA[Tarea no encontrada.
+]]></system-out>
+  </testcase>
+  <testcase name="testFlujoCompleto" classname="GestorTareasTest" time="0.001">
+    <system-out><![CDATA[Tarea Normal agregada.
+Tarea Urgente agregada.
+Tarea marcada como completada.
+Tarea eliminada.
+]]></system-out>
+  </testcase>
+  <testcase name="testMarcarComoCompletada" classname="GestorTareasTest" time="0.001">
+    <system-out><![CDATA[Tarea Normal agregada.
+Tarea marcada como completada.
+]]></system-out>
+  </testcase>
+  <testcase name="testAgregarTareaNormal" classname="GestorTareasTest" time="0.003">
+    <system-out><![CDATA[Tarea Normal agregada.
+]]></system-out>
+  </testcase>
+  <testcase name="testEliminarTarea" classname="GestorTareasTest" time="0.001">
+    <system-out><![CDATA[Tarea Normal agregada.
+Tarea eliminada.
+]]></system-out>
+  </testcase>
+  <testcase name="testMostrarDetallesTareaUrgente" classname="GestorTareasTest" time="0.001">
+    <system-out><![CDATA[=== TAREA URGENTE ===
+ID: 1
+Nombre: Bug crítico
+Prioridad: Alta
+Estado: Pendiente
+Tipo: Urgente ⚠️
+Requiere atención inmediata
+]]></system-out>
+  </testcase>
+  <testcase name="testMostrarDetallesTareaNormal" classname="GestorTareasTest" time="0.003">
+    <system-out><![CDATA[=== TAREA NORMAL ===
+ID: 1
+Nombre: Test
+Prioridad: Alta
+Estado: Pendiente
+Tipo: Normal
+]]></system-out>
+  </testcase>
+  <testcase name="testListarTareasVacias" classname="GestorTareasTest" time="0.001">
+    <system-out><![CDATA[No hay tareas registradas.
+]]></system-out>
+  </testcase>
+  <testcase name="testAgregarTareaUrgente" classname="GestorTareasTest" time="0.002">
+    <system-out><![CDATA[Tarea Urgente agregada.
+]]></system-out>
+  </testcase>
+</testsuite>

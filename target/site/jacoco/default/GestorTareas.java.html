@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="es"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>GestorTareas.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">SmartTask</a> &gt; <a href="index.source.html" class="el_package">default</a> &gt; <span class="el_source">GestorTareas.java</span></div><h1>GestorTareas.java</h1><pre class="source lang-java linenums">import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * Clase que gestiona la colección de tareas del sistema.
+ * Centraliza la lógica de agregar, listar, completar y eliminar tareas.
+ * Aplica los fundamentos de la Lección 5.
+ *
+ * @author Estudiante
+ * @version 1.0
+ */
+<span class="fc" id="L12">public class GestorTareas {</span>
+<span class="fc" id="L13">    private List&lt;Tarea&gt; listaTareas = new ArrayList&lt;&gt;();</span>
+<span class="fc" id="L14">    private int contadorId = 1;</span>
+
+    /**
+     * Obtiene la lista de tareas registradas.
+     * @return Lista de tareas
+     */
+    public List&lt;Tarea&gt; getListaTareas() {
+<span class="fc" id="L21">        return listaTareas;</span>
+    }
+
+    /**
+     * Agrega una nueva tarea al gestor (Normal o Urgente).
+     * @param nombre Nombre o descripción de la tarea
+     * @param prioridad Nivel de prioridad (Alta/Media/Baja)
+     * @param tipo Tipo de tarea: &quot;Normal&quot; o &quot;Urgente&quot;
+     */
+    public void agregarTarea(String nombre, String prioridad, String tipo) {
+        Tarea nueva;
+<span class="fc bfc" id="L32" title="All 2 branches covered.">        if (tipo.equalsIgnoreCase(&quot;Urgente&quot;)) {</span>
+<span class="fc" id="L33">            nueva = new TareaUrgente(contadorId++, nombre, prioridad);</span>
+        } else {
+<span class="fc" id="L35">            nueva = new TareaNormal(contadorId++, nombre, prioridad);</span>
+        }
+<span class="fc" id="L37">        listaTareas.add(nueva);</span>
+<span class="fc" id="L38">        System.out.println(&quot;Tarea &quot; + tipo + &quot; agregada.&quot;);</span>
+<span class="fc" id="L39">    }</span>
+
+    /**
+     * Lista todas las tareas registradas.
+     */
+    public void listarTareas() {
+<span class="fc bfc" id="L45" title="All 2 branches covered.">        if (listaTareas.isEmpty()) {</span>
+<span class="fc" id="L46">            System.out.println(&quot;No hay tareas registradas.&quot;);</span>
+        } else {
+<span class="fc bfc" id="L48" title="All 2 branches covered.">            for (Tarea t : listaTareas) {</span>
+<span class="fc" id="L49">                System.out.println(t);</span>
+<span class="fc" id="L50">            }</span>
+        }
+<span class="fc" id="L52">    }</span>
+
+    /**
+     * Marca una tarea como completada por su ID.
+     * @param id Identificador de la tarea a completar
+     */
+    public void marcarComoCompletada(int id) {
+<span class="fc bfc" id="L59" title="All 2 branches covered.">        for (Tarea t : listaTareas) {</span>
+<span class="pc bpc" id="L60" title="1 of 2 branches missed.">            if (t.getId() == id) {</span>
+<span class="fc" id="L61">                t.setCompletado(true);</span>
+<span class="fc" id="L62">                System.out.println(&quot;Tarea marcada como completada.&quot;);</span>
+<span class="fc" id="L63">                return;</span>
+            }
+<span class="nc" id="L65">        }</span>
+<span class="fc" id="L66">        System.out.println(&quot;Tarea no encontrada.&quot;);</span>
+<span class="fc" id="L67">    }</span>
+
+    /**
+     * Elimina una tarea por su ID.
+     * @param id Identificador de la tarea a eliminar
+     */
+    public void eliminarTarea(int id) {
+<span class="fc bfc" id="L74" title="All 4 branches covered.">        if (listaTareas.removeIf(t -&gt; t.getId() == id)) {</span>
+<span class="fc" id="L75">            System.out.println(&quot;Tarea eliminada.&quot;);</span>
+        } else {
+<span class="fc" id="L77">            System.out.println(&quot;Tarea no encontrada.&quot;);</span>
+        }
+<span class="fc" id="L79">    }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.10.202304240956</span></div></body></html>
