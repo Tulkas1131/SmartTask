@@ -1,97 +1,69 @@
-# SmartTask - Sistema de Gestión de Tareas
+# SmartTask — Gestor de tareas en consola (Java)
 
-## Descripción
+Aplicación de consola en **Java 21** para gestionar tareas (crear, listar, completar y eliminar) con soporte de **prioridades** y **tipos de tarea** (Normal / Urgente). Incluye **pruebas unitarias (JUnit 5)**, **cobertura (JaCoCo)** y **JavaDoc**.
 
-SmartTask es una aplicación de consola desarrollada en Java que permite gestionar tareas personales. El proyecto implementa progresivamente los fundamentos del lenguaje Java, algoritmos, estructuras de control, orientación a objetos, principios de diseño, pruebas unitarias y documentación técnica.
+## Estado del proyecto
+- ✅ Funcional (CLI)
+- ✅ Tests y cobertura
+- ✅ Documentación JavaDoc
+
+## Enlaces rápidos
+- 📚 Documentación (JavaDoc): **TODO: link a GitHub Pages** (ej: `https://tulkas1131.github.io/SmartTask/`)
+- 📈 Cobertura (JaCoCo): `target/site/jacoco/index.html`
+- ▶️ Ejecutar: ver sección **Ejecución**
 
 ## Características
+- Agregar tareas con **nombre** y **prioridad** (Alta/Media/Baja)
+- Listar tareas **activas** y **completadas**
+- Marcar tareas como **completadas**
+- Eliminar tareas por **ID**
+- Tipos de tareas: **Normal** y **Urgente**
+- Interfaz de consola interactiva
+- Pruebas unitarias con **JUnit5**
+- Reporte de cobertura con **JaCoCo**
+- Documentación **JavaDoc**
 
-- ✅ **Agregar tareas** con nombre y prioridad (Alta/Media/Baja)
-- ✅ **Listar tareas** activas y completadas
-- ✅ **Marcar tareas como completadas**
-- ✅ **Eliminar tareas** por ID
-- ✅ **Dos tipos de tareas**: Normal y Urgente
-- ✅ **Interfaz de consola** interactiva
-- ✅ **Pruebas unitarias** con JUnit5 (80%+ cobertura)
-- ✅ **Documentación JavaDoc** completa
-
-## Estructura del Proyecto
-
-```
-SmartTask/
-├── src/
-│   ├── main/java/
-│   │   ├── SmartTask.java          # Clase principal (Lección 4)
-│   │   ├── GestorTareas.java       # Gestor de tareas (Lección 5)
-│   │   ├── Tarea.java              # Clase abstracta (Lección 6)
-│   │   ├── TareaNormal.java        # Herencia (Lección 6)
-│   │   ├── TareaUrgente.java       # Herencia y Polimorfismo (Lección 6)
-│   │   └── Accionable.java         # Interfaz (Lección 6)
-│   └── test/java/
-│       └── GestorTareasTest.java   # Pruebas unitarias (Lección 7)
-├── pom.xml                         # Configuración Maven
-├── docs/                           # Documentación JavaDoc generada
-├── bin/                            # Archivos compilados
-└── README.md                       # Este archivo
-```
-
-## Tecnologías Utilizadas
-
-- **Lenguaje**: Java 21
-- **Compilador**: Maven 3.x
-- **Testing**: JUnit5 (Jupiter)
-- **Cobertura**: JaCoCo
-- **IDE**: VS Code / Eclipse
+---
 
 ## Requisitos
+- **JDK 21+**
+- **Maven 3.6+**
 
-- JDK 21 o superior
-- Maven 3.6+
-- VS Code o Eclipse
-
-## Instalación y Compilación
-
-### 1. Clonar o descargar el proyecto
-
+## Instalación
 ```bash
+git clone https://github.com/Tulkas1131/SmartTask.git
 cd SmartTask
-```
-
-### 2. Compilar el proyecto
-
-```bash
 mvn clean compile
 ```
 
-### 3. Ejecutar las pruebas
-
+## Ejecutar pruebas
 ```bash
 mvn test
 ```
 
-### 4. Crear archivo ejecutable JAR
-
+## Generar JAR
 ```bash
 mvn package
 ```
 
-El archivo `SmartTask-1.0.jar` se creará en la carpeta `target/`
+> El JAR se genera en `target/` (por defecto: `target/<artifactId>-<version>.jar`).
 
 ## Ejecución
 
-### Desde Maven
+### Opción A — Desde Maven
 ```bash
 mvn exec:java -Dexec.mainClass="SmartTask"
 ```
 
-### Desde el JAR
+### Opción B — Desde el JAR
 ```bash
-java -jar target/SmartTask-1.0.jar
+java -jar target/<artifactId>-<version>.jar
 ```
 
-## Menú de la Aplicación
+---
 
-```
+## Menú de la aplicación
+```text
 --- SMART TASK MENU ---
 1. Listar tareas
 2. Agregar tarea
@@ -100,98 +72,41 @@ java -jar target/SmartTask-1.0.jar
 5. Salir
 ```
 
-## Pruebas Unitarias
-
-### Ejecutar todas las pruebas
-```bash
-mvn test
-```
-
-### Pruebas incluidas (10 total)
-1. ✓ Agregar tarea normal
-2. ✓ Agregar tarea urgente
-3. ✓ Marcar como completada
-4. ✓ Marcar inexistente (validación)
-5. ✓ Eliminar tarea
-6. ✓ Eliminar inexistente (validación)
-7. ✓ Listar tareas vacías
-8. ✓ Listar tareas con contenido
-9. ✓ Flujo completo (agregar → completar → eliminar)
-10. ✓ Agregar múltiples tareas
-
-### Cobertura de Código
-- Objetivo: 80%+
-- Herramienta: JaCoCo
-- Reporte: `target/site/jacoco/index.html`
-
-## Generación de Documentación
+## Documentación
 
 ### Generar JavaDoc
 ```bash
 mvn javadoc:javadoc
 ```
 
-La documentación se genera en `target/site/apidocs/`
+Salida típica: `target/site/apidocs/`
 
-### Ver documentación existente
+### Generar reporte de cobertura
 ```bash
-cd docs/
-open index.html
+mvn test
 ```
 
-## Conceptos Java Implementados
+Reporte: `target/site/jacoco/index.html`
 
-| Lección | Concepto | Archivo |
-|---------|----------|---------|
-| 1 | Entorno Java y estructura base | SmartTask.java |
-| 2 | Algoritmos y pseudocódigo | GestorTareas.java |
-| 3 | Tipos de datos, operadores, control | Tarea.java |
-| 4 | Aplicación de consola | SmartTask.java |
-| 5 | POO y encapsulamiento | Tarea.java, GestorTareas.java |
-| 6 | Herencia, polimorfismo e interfaces | TareaNormal.java, TareaUrgente.java, Accionable.java |
-| 7 | Pruebas unitarias | GestorTareasTest.java |
+---
 
-## Estructura de Clases
-
-### Jerarquía de Herencia
+## Estructura del proyecto (resumen)
+```text
+src/main/java/    Código fuente
+src/test/java/    Tests (JUnit 5)
+docs/             JavaDoc publicado (ideal para GitHub Pages)
+pom.xml           Configuración Maven
 ```
+
+## Modelo (POO)
+```text
 Tarea (abstracta)
 ├── TareaNormal (implementa Accionable)
 └── TareaUrgente (implementa Accionable)
 ```
 
-### Interfaz Accionable
-```java
-public interface Accionable {
-    void mostrarDetalles();
-}
-```
-
-## Buenas Prácticas Implementadas
-
-✅ Encapsulamiento (getters/setters)
-✅ Nombres significativos de variables y métodos
-✅ Documentación JavaDoc completa
-✅ Separación de responsabilidades
-✅ Bajo acoplamiento
-✅ Pruebas unitarias
-✅ Estructura Maven estándar
-✅ Control de versiones
-
-## Resultados de Pruebas
-
-```
-Tests run: 10
-Failures: 0
-Errors: 0
-Skipped: 0
-Coverage: 80%+
-```
-
 ## Autor
-
-Alejandro Casetti - Módulo 4: Fundamentos de Programación en Java
+Alejandro Casetti
 
 ## Licencia
-
-Proyecto educativo 
+TODO: Elegir una licencia (recomendado: MIT o Apache-2.0).
